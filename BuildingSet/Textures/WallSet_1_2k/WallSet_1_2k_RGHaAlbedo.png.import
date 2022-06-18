@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="StreamTexture"
+path="res://.import/WallSet_1_2k_RGHaAlbedo.png-58d14a554ed41d914d4a6d67c1beee14.stex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://BuildingSet/Textures/WallSet_1_2k/WallSet_1_2k_RGHaAlbedo.png"
+dest_files=[ "res://.import/WallSet_1_2k_RGHaAlbedo.png-58d14a554ed41d914d4a6d67c1beee14.stex" ]
+
+[params]
+
+compress/mode=0
+compress/lossy_quality=0.7
+compress/hdr_mode=0
+compress/bptc_ldr=0
+compress/normal_map=0
+flags/repeat=0
+flags/filter=true
+flags/mipmaps=false
+flags/anisotropic=false
+flags/srgb=2
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/HDR_as_SRGB=false
+process/invert_color=false
+stream=false
+size_limit=0
+detect_3d=true
+svg/scale=1.0
