@@ -5,6 +5,7 @@ extends Node
 # var a = 2
 # var b = "text"
 var index = 0
+var test = false
 
 
 # Called when the node enters the scene tree for the first time.
@@ -14,10 +15,13 @@ func _ready():
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta):
-	if Input.is_action_pressed("ui_enter"):
+	if  Input.is_action_just_pressed("enter"):
 		index = +1
+		test = true
+		print(test)
+		$dialouge_box.hide()
 
-	if Input.is_action_pressed("ui_shift"):
+	if Input. is_action_just_pressed("shift"):
 		index = -1
 
 	if index == 1:
